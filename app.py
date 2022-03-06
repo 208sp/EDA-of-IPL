@@ -6,7 +6,7 @@ import dash_auth
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
-USERNAME_PASSWORD_PAIRS=[['guvi','guvi']]
+USERNAME_PASSWORD_PAIRS=[['ipl','ipl']]
 app=dash.Dash(__name__)
 auth= dash_auth.BasicAuth(app,USERNAME_PASSWORD_PAIRS)
 server=app.server
